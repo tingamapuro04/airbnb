@@ -14,3 +14,11 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+const cap = ['alice', 'brenda', 'kim', 'wajakoya']
+const cap1 = cap.map((item) => {
+  return `<p>${item}</p>`
+})
+
+console.log(cap1)

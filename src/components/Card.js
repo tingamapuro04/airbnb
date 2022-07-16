@@ -1,12 +1,12 @@
 import React from 'react'
 
 
-function Card(props) {
+function Card({src, name, age}) {
   return (
     <div className="card">
-      <img src={props.src} alt="pic" className="nina-pic" />
-      <h2>People</h2>
-      <p>Are working right now</p>
+      <img src={src} alt="pic" className="nina-pic" />
+      {name && <h2> {name} </h2>}
+      <p> {age} years old </p>
     </div>
   )
 }
