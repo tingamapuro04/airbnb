@@ -61,9 +61,25 @@ body {
   width: auto;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.sold {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  background: rgb(234, 223, 223);
+  padding: 0 4px;
 }
 
 .nina-pic {
   width: 80%;
   align-self: center;
+}
+
+.peru {
+  background: grey;
+  width: auto;
+  border-radius: 15px;
+  padding: 3px 7px;
 }
